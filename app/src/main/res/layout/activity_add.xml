@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/viewtanggal"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"/>
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="5"
+        android:paddingRight="20sp"
+        android:paddingLeft="20sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NAMA PC"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textNoSuggestions"
+                android:id="@+id/namapc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brand Prosessor"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp"/>
+
+            <Spinner
+                android:id="@+id/bps"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prosessor"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/ps"
+                    android:layout_width="250sp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="IDR"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/hargaprosessoradd"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="K"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matherboard"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/mbs"
+                    android:layout_width="250sp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="IDR"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/hargamotherboardadd"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="K"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ssd"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/ssds"
+                    android:layout_width="250sp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="IDR"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/hargassdadd"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="K"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hdd"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/hdds"
+                    android:layout_width="250sp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="IDR"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/hargahddadd"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="K"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Memory Ram"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/rams"
+                    android:layout_width="250sp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="IDR"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/hargaramadd"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="K"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VGA"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/vgas"
+                    android:layout_width="250sp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="IDR"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/hargavgaadd"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="K"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Power Supply"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/pcus"
+                    android:layout_width="250sp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="IDR"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/hargapsuadd"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="K"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cpu Cooler"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/coolers"
+                    android:layout_width="250sp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="IDR"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/hargacooladd"
+                    android:layout_width="80sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="K"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/butoncek"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Total BIAYA"
+                    android:shadowRadius="20"
+                    android:textColor="@color/colorPrimary2"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="60sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="IDR"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/hargatotaladd"
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="K"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Skor PC"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="22sp" />
+
+            <RatingBar
+                android:id="@+id/ratingpc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="5"
+                android:stepSize="1.0"
+                android:isIndicator="true"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <android.support.design.bottomappbar.BottomAppBar
+            android:id="@+id/bottom"
+            style="@style/Widget.MaterialComponents.BottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_gravity="bottom"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabAlignmentMode="center"
+            app:fabCradleRoundedCornerRadius="16dp"
+            app:hideOnScroll="true">
+
+        </android.support.design.bottomappbar.BottomAppBar>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btncreate"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_save_black_24dp"
+            android:backgroundTint="@color/colorPrimary3"
+            app:elevation="4dp"
+            app:fabSize="normal"
+            app:layout_anchor="@id/bottom" />
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

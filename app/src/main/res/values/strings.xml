@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">mypc</string>
+    <string-array name="brandpc">
+        <item>INTEL</item>
+        <item>AMD</item>
+    </string-array>
+    <string-array name="Prosessorintel">
+        <item>i3-7350K</item>
+        <item>i5-8400></item>
+        <item>i7-8086K</item>
+        <item>i9-9900K</item>
+    </string-array>
+    <string-array name="Prosessoramd">
+        <item>AMD-Kaveri</item>
+        <item>AMD-Godavari</item>
+        <item>AMD-Carrizo</item>
+        <item>AMD-Vishera</item>
+    </string-array>
+    <string-array name="motherboard">
+        <item>AsRock X299</item>
+        <item>Rock Fatal1ty</item>
+        <item>Asus Rog Strix</item>
+        <item>MSI X299</item>
+    </string-array>
+    <string-array name="ssd">
+        <item>LaCie 500GB</item>
+        <item>ASGARD 256GB</item>
+        <item>GALAXY 120GB"</item>
+        <item>ADATA SX6000</item>
+        <item> AFOX 120GB</item>
+    </string-array>
+    <string-array name="hdd">
+        <item>Seagate Baracuda</item>
+        <item>Toshiba</item>
+        <item>WDC</item>
+        <item>Hitachi</item>
+        <item>Kingston</item>
+        <item>Consair</item>
+    </string-array>
+    <string-array name="ram">
+        <item>ASGARD 8GB 2Chanel</item>
+        <item>ADATA 8GB 2Chanel</item>
+        <item>Hitachi 8GB 2Chanel</item>
+        <item>Kingston 8GB 2Chanel</item>
+        <item>Consair 8GB 2Chanel</item>
+    </string-array>
+    <string-array name="vga">
+        <item>Galax Geforce 8GB</item>
+        <item>AsRock Radeon 8GB</item>
+        <item>Gigabyte GeforceRTX 8GB</item>
+        <item>Leadtex Qudron 8GB</item>
+        <item>MSI Geforce 8GB</item>
+        <item>Zotac Geforcw 8GB</item>
+    </string-array>
+    <string-array name="psu">
+        <item>Power Logig Magnum</item>
+        <item>Caugar Gaming</item>
+        <item>NZXT</item>
+    </string-array>
+    <string-array name="cooler">
+        <item>Antex Mercury</item>
+        <item>Cyroric</item>
+        <item>DeepCoo</item>
+    </string-array>
+
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">PC Idea</string>
+    <string name="slide_1_desc">Rencanakan PC Gaming buatan mu sendiri</string>
+
+    <string name="slide_2_title">PC-Komponen</string>
+    <string name="slide_2_desc">Rencanakan Komponen PC Gaming mu dengan baik</string>
+
+    <string name="slide_3_title">Base-Rate</string>
+    <string name="slide_3_desc">Cek baserate relasi antar komponen PC Gaming mu lag gak enak cuk</string>
+
+    <string name="slide_4_title">Note Idea PC</string>
+    <string name="slide_4_desc">buat Note komponen PC Gaming mu ,biar gak lupa cuk</string>
+</resources>
+    <!--String brandpss[] = {"INTEL", "AMD"};-->
+    <!--//    String intel[] = {"i3-7350K", "i5-8400", "i7-8086K", "i9-9900K"};-->
+    <!--//    String amd[] = {"AMD-Kaveri", "AMD-Godavari", "AMD-Carrizo", "AMD-Vishera"};-->
+    <!--//    String matherboard[] = {"AsRock X299", "AsRock Fatal1ty", "Asus Rog Strix", "MSI X299"};-->
+    <!--//    String ssd[] = {"LaCie 500GB", "ASGARD 256GB", "GALAXY 120GB", "ADATA SX6000", "AFOX 120GB"};-->
+    <!--//    String hdd[] = {"Seagate Baracuda", "Toshiba", "WDC", "Hitachi", "Kingston", "Consair"};-->
+    <!--//    String ram[] = {"ASGARD 8GB 2Chanel", "ADATA 8GB 2Chanel", "Hitachi 8GB 2Chanel", "Kingston 8GB 2Chanel", "Consair 8GB 2Chanel"};-->
+    <!--//    String vga[] = {"Galax Geforce 8GB", "AsRock Radeon 8GB", "Gigabyte GeforceRTX 8GB", "Leadtex Qudron 8GB", "MSI Geforce 8GB", "Zotac Geforcw 8GB"};-->
+    <!--//    String psu[] = {"Power Logig Magnum", "Caugar Gaming", "NZXT"};-->
+    <!--//    String cpucooler[] = {"Antex Mercury", "Cyroric", "DeepCool"};-->

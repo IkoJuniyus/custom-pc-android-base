@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp">
+        <EditText
+            android:id="@+id/txtSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Search..."
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="20dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/icon_search_black_36dp"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="830sp"
+        android:paddingRight="30sp"
+        android:paddingLeft="30sp"
+        android:paddingTop="60sp">
+
+        <ListView
+            android:id="@+id/Listmypc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <android.support.design.bottomappbar.BottomAppBar
+        android:id="@+id/bottom"
+        style="@style/Widget.MaterialComponents.BottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_gravity="bottom"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabAlignmentMode="center"
+        app:fabCradleRoundedCornerRadius="16dp"
+        app:hideOnScroll="true"
+        >
+
+    </android.support.design.bottomappbar.BottomAppBar>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/colorPrimary3"
+        android:src="@drawable/ic_add"
+        app:elevation="4dp"
+        app:fabSize="normal"
+        app:layout_anchor="@id/bottom" />
+
+</android.support.design.widget.CoordinatorLayout>

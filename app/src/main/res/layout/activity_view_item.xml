@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20sp"
+        android:paddingTop="10sp"
+        android:text=""
+        android:id="@+id/viewtanggal"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sadw"
+        android:id="@+id/idGET"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"
+        android:paddingRight="20sp"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="NAMA PC"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/namapcView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brand Prosessor"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/brandView"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prosessor"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/prosessorView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Prosessor"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/hargaprosessorview"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Harga"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matherboard"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp" />
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:id="@+id/motherboardView"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:textSize="14sp"-->
+            <!--android:gravity="center"/>-->
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/motherboardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Motherboard"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/hargamotherboardview"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Harga"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ssd"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ssdView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="ssd"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/hargassdview"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Harga"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hdd"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hddView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="HDD"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/hargahddview"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Harga"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Memory Ram"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ramView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="RAM"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/hargaramview"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Harga"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VGA"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/vgaView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="VGA"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/hargavgaview"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Harga"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Power Supply"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/psuView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="PSU"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/hargapsuview"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Harga"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cpu Cooler"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/coolerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="PSU"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/hargacoolerview"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Harga"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Total Biaya"
+                    android:textColor="@color/colorPrimary2"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/hargaview"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Harga"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Skor PC"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:textSize="22sp" />
+
+            <RatingBar
+                android:id="@+id/ratingpclistview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="5"
+                android:stepSize="1.0"
+                android:isIndicator="true"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <android.support.design.bottomappbar.BottomAppBar
+            android:id="@+id/bottom"
+            style="@style/Widget.MaterialComponents.BottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_gravity="bottom"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabAlignmentMode="center"
+            app:fabCradleRoundedCornerRadius="16dp"
+            app:hideOnScroll="true">
+
+        </android.support.design.bottomappbar.BottomAppBar>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/backlist"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_update"
+            android:backgroundTint="@color/colorPrimary3"
+            app:elevation="4dp"
+            app:fabSize="normal"
+            app:layout_anchor="@id/bottom" />
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
